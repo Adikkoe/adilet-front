@@ -1,0 +1,89 @@
+.container {
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 24px;
+  font-family: Arial, sans-serif;
+}
+
+.header {
+  margin-bottom: 16px;
+}
+
+.card {
+  border: 1px solid #333;
+  border-radius: 12px;
+  padding: 16px;
+  margin: 14px 0;
+}
+
+.row {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  flex-wrap: wrap;
+}
+
+.space {
+  justify-content: space-between;
+}
+
+.field {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+  margin: 12px 0;
+}
+
+.input,
+.textarea {
+  padding: 10px;
+  border-radius: 10px;
+  border: 1px solid #444;
+  background: transparent;
+  color: inherit;
+}
+
+.btn {
+  padding: 10px 14px;
+  border-radius: 10px;
+  border: 1px solid #666;
+  background: transparent;
+  color: inherit;
+  cursor: pointer;
+}
+
+.btn:disabled {
+  opacity: 0.5;
+  cursor: not-allowed;
+}
+
+.hint {
+  opacity: 0.8;
+}
+
+.list {
+  display: grid;
+  gap: 12px;
+}
+
+.article {
+  border: 1px solid #444;
+  border-radius: 12px;
+  padding: 12px;
+}
+
+.articleHead {
+  display: flex;
+  justify-content: space-between;
+  gap: 12px;
+  align-items: baseline;
+}
+
+.meta {
+  opacity: 0.7;
+  font-size: 12px;
+}
+
+.content {
+  opacity: 0.95;
+}
