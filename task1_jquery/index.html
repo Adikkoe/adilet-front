@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Lab 1.1 jQuery</title>
+
+<style>
+.highlight{
+background:yellow;
+}
+button{
+padding:10px;
+}
+p{
+padding:10px;
+}
+</style>
+
+<script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+
+</head>
+<body>
+
+<h2>Imperative jQuery</h2>
+
+<button id="btn">Toggle Highlight</button>
+
+<p id="text">This text will be highlighted</p>
+
+<script>
+
+$("#btn").on("click",function(){
+$("#text").toggleClass("highlight");
+});
+
+</script>
+
+</body>
+</html>
