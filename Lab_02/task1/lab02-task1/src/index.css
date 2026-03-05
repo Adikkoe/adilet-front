@@ -1,0 +1,58 @@
+:root {
+  font-family: system-ui, Arial, sans-serif;
+}
+
+body {
+  margin: 0;
+  background: #1e1e1e;
+  color: #fff;
+}
+
+.page {
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 40px 20px;
+  text-align: center;
+}
+
+.header h1 {
+  font-size: 44px;
+  margin: 0 0 18px;
+}
+
+.meta {
+  display: inline-block;
+  text-align: left;
+  margin-bottom: 20px;
+  opacity: 0.9;
+}
+
+.card {
+  background: rgba(255, 255, 255, 0.06);
+  border: 1px solid rgba(255, 255, 255, 0.12);
+  border-radius: 14px;
+  padding: 22px;
+  margin: 16px 0;
+}
+
+.example {
+  font-size: 22px;
+  margin: 0;
+}
+
+.list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.list li {
+  padding: 8px 0;
+  font-size: 18px;
+  opacity: 0.95;
+}
+
+.footer {
+  margin-top: 30px;
+  opacity: 0.7;
+}
